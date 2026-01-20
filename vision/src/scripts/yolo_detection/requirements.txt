@@ -1,0 +1,7 @@
+numpy~=1.26.4
+opencv_contrib_python~=4.9.0.80
+opencv_python~=4.10.0.84
+opencv_python_headless~=4.9.0.80
+supervision~=0.25.1
+torch
+ultralytics~=8.3.3

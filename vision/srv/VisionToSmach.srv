@@ -1,0 +1,7 @@
+int32 command
+string input1
+---
+float32 info1
+float32 info2
+float32 info3
+string info4
