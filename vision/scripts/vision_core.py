@@ -10,17 +10,18 @@ Description: 现役视觉节点,核心的视觉节点,和其余部分进行通�
 '''
 
 import os
-
+import sys
 import cv2
 import numpy as np
 import pyrealsense2 as rs
 import rospy
 from geometry_msgs.msg import *
 from pyk4a import ColorResolution, Config, PyK4A#
-from xm_vision.srv import (VisionToSmach, VisionToSmachRequest,
-                           VisionToSmachResponse)
+from vision.srv import VisionToSmach, VisionToSmachRequest, VisionToSmachResponse
 
 sys.path.append('/home/xiaomeng/catkin_ws/src/xm_vision/src/scripts')
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), '..'))
+
 # 从 WhatIsThat.GestureRecognizer 导入 GestureRecognizer
 # 从 WhatIsThat.yolodetect 导入 yolodetect
 from bag import PointLuggage
@@ -41,6 +42,7 @@ from takephoto import RememberFace
 
 
 sys.path.append('/home/xiaomeng/catkin_ws/src/xm_smach/xm_smach/smach_lib')
+sys.path.append('/home/aurevior/test_from_linke/test_from_linke/晓萌源码/srcc/xm_smach/xm_smach/smach_lib')
 from new_smach_special.various_dic import *
 
 

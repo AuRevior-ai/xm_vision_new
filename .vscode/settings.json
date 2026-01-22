@@ -1,5 +1,9 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "python.analysis.extraPaths": [
+        "./vision/src/scripts",
+        "/home/aurevior/test_from_linke/test_from_linke/晓萌源码/srcc/xm_smach/xm_smach/smach_lib"
+    ]
 }
