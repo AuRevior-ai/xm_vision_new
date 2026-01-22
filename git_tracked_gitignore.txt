@@ -1,0 +1,10 @@
+vision/.gitignore
+vision/src/scripts/camera/.gitignore
+vision/src/scripts/face_identification/.gitignore
+vision/src/scripts/face_orientation_recognition/.gitignore
+vision/src/scripts/gesture_recognition/.gitignore
+vision/src/scripts/pointing_gesture_recognition/.gitignore
+vision/src/scripts/posture_identification/.gitignore
+vision/src/scripts/posture_identification/dataset/.gitignore
+vision/src/scripts/posture_identification/output/.gitignore
+vision/src/scripts/yolo_detection/.gitignore
